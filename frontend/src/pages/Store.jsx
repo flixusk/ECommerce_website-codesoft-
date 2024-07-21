@@ -13,7 +13,7 @@ const ProductPage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/products/random?count=20');
+        const response = await axios.get('https://ecommerce-website-codesoft.onrender.com/api/products/random?count=20');
         // Debug response
         console.log('Fetched products:', response.data);
 

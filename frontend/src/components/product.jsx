@@ -3,14 +3,14 @@ import { FaPlus } from 'react-icons/fa'; // Import the "+" icon
 import { useCart } from '../context/CartContext'; // Import the CartContext
 
 const products = [
-  { id: 1, title: 'Classic White T-Shirt', content: 'A timeless white tee made from soft, breathable cotton.', price: '$24.99', image: 'https://via.placeholder.com/300x200' },
-  { id: 2, title: 'Denim Blue Jeans', content: 'Stylish blue jeans with a comfortable fit and durable fabric.', price: '$49.99', image: 'https://via.placeholder.com/300x200' },
-  { id: 3, title: 'Black Leather Jacket', content: 'A sleek black leather jacket that adds a touch of edge to any outfit.', price: '$129.00', image: 'https://via.placeholder.com/300x200' },
-  { id: 4, title: 'Floral Summer Dress', content: 'A vibrant floral dress perfect for summer outings and events.', price: '$39.95', image: 'https://via.placeholder.com/300x200' },
-  { id: 5, title: 'Casual Sweatshirt', content: 'A cozy sweatshirt for relaxed days, made from premium fleece.', price: '$34.50', image: 'https://via.placeholder.com/300x200' },
-  { id: 6, title: 'Striped Polo Shirt', content: 'A classic polo with stripes, ideal for a casual yet polished look.', price: '$29.99', image: 'https://via.placeholder.com/300x200' },
-  { id: 7, title: 'Warm Wool Scarf', content: 'A soft wool scarf to keep you warm during chilly weather.', price: '$22.00', image: 'https://via.placeholder.com/300x200' },
-  { id: 8, title: 'Comfortable Jogger Pants', content: 'Relaxed jogger pants with a tapered fit, perfect for lounging or workouts.', price: '$39.00', image: 'https://via.placeholder.com/300x200' },
+  { id: 1, title: 'Classic White T-Shirt', content: 'A timeless white tee made from soft, breathable cotton.', price: '$24.99', image: '/assets/fashon1.jpg'},
+  { id: 2, title: 'Denim Blue Jeans', content: 'Stylish blue jeans with a comfortable fit and durable fabric.', price: '$49.99', image: '/assets/fashon2.jpg' },
+  { id: 3, title: 'Black Leather Jacket', content: 'A sleek black leather jacket that adds a touch of edge to any outfit.', price: '$129.00', image: '/assets/fashon3.jpg' },
+  { id: 4, title: 'Floral Summer Dress', content: 'A vibrant floral dress perfect for summer outings and events.', price: '$39.95', image: '/assets/fashon4.jpg' },
+  { id: 5, title: 'Casual Sweatshirt', content: 'A cozy sweatshirt for relaxed days, made from premium fleece.', price: '$34.50', image: '/assets/fashon5.jpg' },
+  { id: 6, title: 'Striped Polo Shirt', content: 'A classic polo with stripes, ideal for a casual yet polished look.', price: '$29.99', image: '/assets/fashon6.png' },
+  { id: 7, title: 'Warm Wool Scarf', content: 'A soft wool scarf to keep you warm during chilly weather.', price: '$22.00', image: '/assets/fashon7.png' },
+  { id: 8, title: 'Comfortable Jogger Pants', content: 'Relaxed jogger pants with a tapered fit, perfect for lounging or workouts.', price: '$39.00', image: '/assets/fashon8.jpg' },
 ];
 
 const Product = () => {

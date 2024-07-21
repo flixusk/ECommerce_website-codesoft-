@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import SignIn from './pages/Sign_in';
 import Product from './pages/Store';
 import CartPage from './pages/CartPage';
+import About from './pages/About';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
        <Route path='/signin' element={<SignIn />} />
        <Route path='/product' element={<Product />} />
        <Route path='/cart' element={<CartPage/>} />
+       <Route path='/about' element={<About />} />
 
      </Routes>
     </BrowserRouter>

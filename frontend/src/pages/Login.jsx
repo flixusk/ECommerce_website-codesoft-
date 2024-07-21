@@ -18,7 +18,7 @@ const Login = () => {
   const login = async () => {
     console.log(formData)
     let responseData;
-    await fetch('http://localhost:5000/api/users/login', {
+    await fetch('https://ecommerce-website-codesoft.onrender.com/api/users/login', {
       method: 'POST',
       headers:{
         Accept:'application/form-data',
@@ -39,7 +39,7 @@ const Login = () => {
   const sign_up = async () => {
     console.log("Signup function executed", formData);
     try {
-      const responseData = await fetch('http://localhost:5000/api/users/register', {
+      const responseData = await fetch('https://ecommerce-website-codesoft.onrender.com/api/users/register', {
         method: 'POST',
         headers: {
           Accept: 'application/form-data',
